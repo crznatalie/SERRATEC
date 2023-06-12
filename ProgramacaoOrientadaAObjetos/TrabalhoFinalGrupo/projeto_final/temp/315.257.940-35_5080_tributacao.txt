@@ -1,0 +1,16 @@
+******************* TRIBUTAÇÃO ********************
+
+               -21/04/2023 16:58:11-               
+
+Nome: João Cláudio
+CPF: 315.257.940-35
+Depósitos: 1
+Saques: 2
+Transferências: 1
+Total tributado: R$00.50
+
+***************************************************
+Taxa de saque: R$00.10 
+Taxa de depósito: R$00.10 
+Taxa de transferência: R$00.20
+***************************************************

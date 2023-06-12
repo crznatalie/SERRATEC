@@ -1,0 +1,210 @@
+@media (max-width: 945px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links, .mailing {
+        padding-bottom: 30px;
+        padding-left: 15px;
+
+    }
+
+    .mail {
+        margin: 0 !important;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.h2 {
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-weight: 600;
+    margin: 2px;
+    font-size: 14px;
+}
+
+a {
+    font-size: 13px;
+    font-weight: 600;
+    color: black !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    text-decoration: underline !important;
+}
+
+p {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+p, a, h5, h2, h3 {
+    font-family: PS-Sans,sans-serif !important;
+    text-transform: uppercase; 
+}
+
+bdi {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.header {
+    background: url("../assets/scarf-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 573px;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    background-color: #ced1d6;
+    width: 100%;
+    height: 76px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.logo {
+    width: 100%;
+    margin: 0;
+}
+
+.options {
+    display: flex;
+    width: 100%;
+}
+
+.options a {
+    margin-right: 20px;
+}
+
+
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icons .bi {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #ced1d6;
+    width: 100%;
+    height: 100%;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 15px;
+     min-width: 450px;
+}
+
+.product a {
+    font-weight: 400;
+}
+
+.product h2{
+    font-size: 12px;
+}
+
+.scarves {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.scarves h3 {
+    text-align: center;
+}
+
+.footer {
+    background-color: #ced1d6;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    padding: 7% 0 2% 0;
+}
+
+.credits {
+    padding-left: 1%;
+    width: 100%;
+}
+
+.credits p {
+    font-family: nimbus-sans,sans-serif !important;
+    line-height: 50pt;
+    text-transform: none;
+}
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    line-height: 20pt;
+}
+.mailing {
+    padding-right: 1%;
+    width: 100%;
+}
+
+.mail {
+    border-top: 1px solid #9c9c9c !important;
+    border-bottom: 1px solid #9c9c9c !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    min-width: 300px;
+}
+
+input[type=text] {
+    background-color: #ced1d6;
+    padding: 15px 0 15px 0;
+    border: none;
+    font-family: PS-Sans,sans-serif !important;
+}
+
+input[type=submit] {
+    font-family: PS-Sans,sans-serif !important;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #ced1d6;
+    border: none; 
+}
+
+.picture{
+    aspect-ratio: 4/5;
+}
+
+.buttons {
+    margin-left: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,516 @@
+{
+	"info": {
+		"_postman_id": "37fc63b2-1786-4278-93c7-8bda9ecb8556",
+		"name": "Documental API - Calculadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27334933"
+	},
+	"item": [
+		{
+			"name": "calc",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "buscar Operacao",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/calc/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/calc/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "sub",
+					"item": [
+						{
+							"name": "nova Sub",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/calc/sub",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										"sub"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/calc/sub",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												"sub"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "soma",
+					"item": [
+						{
+							"name": "nova Soma",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/calc/soma",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										"soma"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/calc/soma",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												"soma"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mult",
+					"item": [
+						{
+							"name": "nova Mult",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/calc/mult",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										"mult"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/calc/mult",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												"mult"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "listar",
+					"item": [
+						{
+							"name": "list",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/calc/listar",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										"listar"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/calc/listar",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												"listar"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"num1\": \"<double>\",\n    \"num2\": \"<double>\",\n    \"id\": \"<long>\",\n    \"result\": \"<double>\",\n    \"tipo\": \"<string>\"\n  },\n  {\n    \"num1\": \"<double>\",\n    \"num2\": \"<double>\",\n    \"id\": \"<long>\",\n    \"result\": \"<double>\",\n    \"tipo\": \"<string>\"\n  }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "div",
+					"item": [
+						{
+							"name": "nova Div",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/calc/div",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"calc",
+										"div"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/calc/div",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"calc",
+												"div"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"num1\": \"<double>\",\n  \"num2\": \"<double>\",\n  \"id\": \"<long>\",\n  \"result\": \"<double>\",\n  \"tipo\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080/calc"
+		}
+	]
+}

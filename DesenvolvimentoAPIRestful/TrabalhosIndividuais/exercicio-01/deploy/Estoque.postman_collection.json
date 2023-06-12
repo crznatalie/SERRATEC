@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "d50dd652-2e22-4f1c-9850-83811f526d2c",
+		"name": "Estoque",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27334933"
+	},
+	"item": [
+		{
+			"name": "Listar estoque completo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estoque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar item específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estoque/2401002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque",
+						"2401002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar item com mesmo id (tem que dar erro)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ref\": 2401001,\r\n    \"produto\": \"Top\",\r\n    \"descricao\": \"Top de linho sem alça com bordados e aplicações.\",\r\n    \"preco\": 80.00,\r\n    \"emEstoque\": true,\r\n    \"quantidade\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estoque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar item corretamente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ref\": 2401005,\r\n    \"produto\": \"Top\",\r\n    \"descricao\": \"Top de linho sem alça com bordados e aplicações.\",\r\n    \"preco\": 80.00,\r\n    \"emEstoque\": true,\r\n    \"quantidade\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estoque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar item novo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estoque/2401005",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque",
+						"2401005"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar descrição de item",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ref\": 2402002,\r\n\"produto\": \"Calça\",\r\n\"descricao\": \"Calça preta em brim\",\r\n\"preco\": 90.00,\r\n\"emEstoque\": true,\r\n\"quantidade\": 3 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estoque/2402002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque",
+						"2402002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete lógico",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estoque/2401002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque",
+						"2401002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alterar quantidade zerada mudando emEstoque pra true",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"ref\": 2401002,\r\n        \"produto\": \"Saia\",\r\n        \"descricao\": \"Saia godê midi em seda com estampa florida\",\r\n        \"preco\": 70.0,\r\n        \"emEstoque\": false,\r\n        \"quantidade\": 6\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estoque/2401002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque",
+						"2401002"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

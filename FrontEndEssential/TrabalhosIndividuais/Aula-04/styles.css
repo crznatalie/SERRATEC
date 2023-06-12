@@ -1,0 +1,87 @@
+h1 {
+    color: palevioletred;
+}
+
+/* SM */
+@media(min-width: 576px) {
+    h1 {
+        color: plum;
+    }
+}
+
+@media(min-width: 768px) {
+    h1 {
+        color: rosybrown;
+    }
+}
+
+@media(min-width: 992px) {
+    h1 {
+        color: thistle;
+    }
+}
+.btn-danger {
+    background-color: lightpink;
+    color: palevioletred;
+    border-color: palevioletred;
+    margin-bottom: 40px;
+}
+
+/* Explicação dos .container e .container-fluid */
+/* .container, .container-fluid {
+    background-color: lightpink;
+    color: white;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+} */
+
+.container {
+    border: 5px dotted palevioletred;
+    padding: 10px;
+}
+
+.row {
+    border: 5px solid pink;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.col, .col-3, .col-8, .col-5, .col-2 {
+    border: 2px dashed paleturquoise;
+    margin: 0px;
+}
+
+.display-flex {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 39px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.minha-div {
+    height: 100px;
+    width: 200px;
+    background-color: papayawhip;
+    border: 1px solid pink;
+    text-align: center;
+    font-size: 30px;
+}
+
+.self {
+    align-self: flex-end;
+}
+
+#minha-row {
+    height: 150px;
+}
+
+#minha-row .col-3 {
+    background-color: pink;
+    height: 50px;
+}

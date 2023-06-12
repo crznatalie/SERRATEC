@@ -1,0 +1,12 @@
+******************** DEPÓSITO *********************
+
+Nome: João Cláudio
+CPF: 315.257.940-35
+Agência: 5080
+Conta Corrente: 12573
+Valor do depósito: R$800.00
+Taxa de depósito: R$00.10
+Saldo em conta: R$3575.50
+Operação realizada em: 21/04/2023 16:57:48
+
+****************** FIM DEPÓSITO *******************

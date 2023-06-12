@@ -1,0 +1,22 @@
+****************** TRANSFERÊNCIA ******************
+
+                     -CLIENTE-                     
+
+Nome: João Cláudio
+CPF: 315.257.940-35
+Agência: 5080
+Conta Corrente: 12573
+Taxa de transferência: R$00.20
+Valor transferido: R$476.00
+Saldo em conta: R$3054.20
+Operação realizada em: 21/04/2023 16:58:06
+
+---------------------------------------------------
+                    -FAVORECIDO-                   
+Nome: Raul Souza
+CPF: 315.205.204-35
+Agência: 5083
+Conta Poupança: 225645
+Valor recebido: R$476.00
+
+**************** FIM TRANSFERÊNCIA ****************

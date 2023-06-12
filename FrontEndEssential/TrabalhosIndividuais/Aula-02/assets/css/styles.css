@@ -1,0 +1,26 @@
+body {
+    background-image: url(/Aula-02/assets/images/fundo-do-ceu-rosa-com-lua-crescente_53876-129048.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    border-color: aqua;
+    border-width: 1px;
+    border-style: dashed;
+    border
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+div h1 {
+    color: brown;
+    background-color: white;
+}
+
+.primeira-classe h1 {
+    color: white;
+    background-color: brown;
+}

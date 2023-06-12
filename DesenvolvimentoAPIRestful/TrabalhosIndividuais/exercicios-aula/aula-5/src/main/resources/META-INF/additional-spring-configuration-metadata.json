@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "aula.swagger.dev-url",
+    "type": "java.lang.String",
+    "description": "A description for 'aula.swagger.dev-url'"
+  },
+  {
+    "name": "java.runtime.version",
+    "type": "java.lang.String",
+    "description": "A description for 'java.runtime.version'"
+  }
+]}

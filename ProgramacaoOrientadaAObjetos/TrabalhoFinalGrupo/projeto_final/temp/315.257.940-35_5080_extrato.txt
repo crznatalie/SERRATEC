@@ -1,0 +1,35 @@
+*********************************************************
+                  -21/04/2023 16:57:43-                  
+Nome: João Cláudio
+CPF: 315.257.940-35
+Agência: 5080
+Conta Corrente: 12573
+Saldo atual: R$2775.60
+
+*********************** HISTÓRICO ***********************
+
+Tipo de operação: Saque
+Valor: R$45.0
+Taxa: R$00.10 
+Operação realizada em: 21/04/2023 16:57:43
+---------------------------------------------------------
+
+Tipo de operação: Depósito
+Valor: R$800.0
+Taxa: R$00.10 
+Operação realizada em: 21/04/2023 16:57:48
+---------------------------------------------------------
+
+Tipo de operação: Saque
+Valor: R$45.0
+Taxa: R$00.10 
+Operação realizada em: 21/04/2023 16:57:53
+---------------------------------------------------------
+
+Tipo de operação: Transferência
+Favorecido: Raul Souza
+Valor: R$476.0
+Taxa: R$00.20 
+Operação realizada em: 21/04/2023 16:58:06
+---------------------------------------------------------
+
